@@ -48,6 +48,7 @@ class demo_bt2Test {
     void check_point11() {
         assertEquals("Error!", check_point(40,50));
     }
+
     private String check_point(int a, int b){
         if (a >= 0 && a <= 60) {
             // Diem ly thuyet toi da la 60.
